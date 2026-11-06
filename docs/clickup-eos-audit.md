@@ -21,7 +21,7 @@
 
 ### Traction: Rocks
 6. **One owner per Rock.** "MMA Cohort bot," "Full Campus Member Audit," and the leadership Rock "MMA AI Brain" (3 owners) have shared ownership. Others can help, but one name is accountable.
-7. **Betty needs her own Integrator Rock** in the Ops L10. Suggested: *"EOS Ops system live: Scorecard has goals and owners, one owner per Rock, 5-5-5s complete for all direct reports by 12/31."*
+7. **Betty needs her own Rock** in the Ops L10. Suggested: *"EOS Ops system live: Scorecard has goals and owners, one owner per Rock, 5-5-5s complete for all direct reports by 12/31."*
 8. **Archive completed Rocks.** The Leadership Rocks list still has Q2/Q3 items marked "DONE" but with status "on track."
 
 ### Issues: IDS
@@ -54,5 +54,5 @@
 
 ## Suggested top 3 for the next Ops L10
 1. Scorecard goals and owners (#1, #2, #5)
-2. One owner per Rock + Betty's Integrator Rock (#6, #7)
+2. One owner per Rock + Betty's own Rock (#6, #7)
 3. Move Support Tickets out of the L10 (#12)

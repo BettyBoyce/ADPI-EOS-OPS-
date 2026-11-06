@@ -1,7 +1,7 @@
 # V/TO: Vision/Traction Organizer
 
 > The single page that says where ADPI is going and how it gets there. Review every quarter, refresh at annual planning.
-> *Last updated: 2026-11-06 · Owner: CEO (Visionary) + Betty (Integrator)*
+> *Last updated: 2026-11-06 · Owners: CEO (Visionary) + Lorna Neeley (Integrator). Betty keeps this copy in sync for Ops. Request the official V/TO from Lorna.*
 
 ## VISION SIDE
 

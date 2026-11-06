@@ -1,6 +1,6 @@
 # Issues List
 
-> Mirror of what matters from ClickUp, plus Betty's Integrator issues. In the L10, pick the **top 3**, then **IDS**. Pulled 2026-11-06.
+> Mirror of what matters from ClickUp, plus Betty's seat-level issues. In the L10, pick the **top 3**, then **IDS**. Pulled 2026-11-06.
 
 ## Ops L10 IDS (ClickUp `900601602268`), open
 | Issue | Owner | Status | Notes |
@@ -32,7 +32,7 @@
 | **$47/mo residential mastermind** (9/21) | Was to be IDS'd 9/28. Outcome not recorded | Confirm the decision |
 | **Lifetime course access in Campus** (10/19) | IDS ticket pending | |
 
-## Integrator issues (from the VP Ops JD, to take to the CEO)
+## VP Ops issues (from the JD, to take to Lorna and the CEO)
 | # | Issue | Priority | Status |
 |---|---|---|---|
 | 1 | **3-Year Picture BD target:** "200 Mentors & 50 Lenders" vs. "$50k/month in BD partnerships." Which is the measurable? | High | Open |
@@ -40,7 +40,8 @@
 | 3 | **Accountability Chart:** JD seats (Program Managers, BD Program, MilREIcon, FB Moderators): which are filled, shared, or open? | High | Open |
 | 4 | **1-Year Plan (2027) numbers** not set. Needed to cascade Q1 Rocks | High | Open |
 | 5 | **ClickUp EOS hygiene** (see `docs/clickup-eos-audit.md`) | Medium | Open |
-| 6 | **JD update:** MilREIcon is off for 2027 and Betty is now full-time Ops. Update the JD/role charter with the CEO and decide what fills that capacity. | High | Open |
+| 6 | **JD update:** MilREIcon is off for 2027 and Betty is now full-time Ops. Update the JD/role charter with Lorna and the CEO and decide what fills that capacity (Integrator development?). | High | Open |
+| 7 | **Seat clarity with Lorna:** confirm the reporting line (CEO vs. COO), and which Integrator-level JD lines Betty owns, co-owns, or supports | High | Open: first Same Page topic |
 
 ## Solved (archive)
 | Issue | Solution | Solved on |

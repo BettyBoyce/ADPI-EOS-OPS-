@@ -1,6 +1,6 @@
 # ADPI EOS Ops
 
-The operating system for ADPI's **VP of Operations / EOS Integrator**, in service of the mission: **financial freedom for 3 million military families.**
+The operating system for ADPI's **VP of Operations** (Integrator-in-training under COO/Integrator Lorna Neeley), in service of the mission: **financial freedom for 3 million military families.**
 
 Everything here is organized around the **Six Key Components of EOS**:
 
@@ -22,7 +22,7 @@ Everything here is organized around the **Six Key Components of EOS**:
 | Weekly | Level 10 Meeting (90 min) | `/l10-prep` before, `/l10-recap` after |
 | Weekly | 1:1s with direct reports | `/one-on-one` |
 | As needed | Solve an issue | `/ids` |
-| Monthly / weekly | Update to CEO (Same Page) | `/ceo-update` |
+| Weekly / monthly | Update to Lorna (Integrator) and the CEO | `/leadership-update` |
 | Quarterly | Rock review + new Rocks, People Analyzer, Quarterly Conversations | `/quarterly-planning` |
 | Annually | 2-day annual planning, V/TO refresh | `eos/vto.md` |
 | Anytime | Capture a win | `/log-win` |
@@ -38,7 +38,7 @@ programs/            MMA, Res Pro, BD Program runbooks
 events/              MilREIcon, team retreat
 sops/                Processes: customer success, programs, events, community
 systems/             Tool map + ClickUp ↔ EOS map + automation backlog
-docs/                ClickUp EOS audit, CEO updates
+docs/                ClickUp EOS audit, leadership updates
 decisions/           Decision log
 growth/              Wins, development plan, reflections
 .claude/skills/      Claude workflows (slash commands)
