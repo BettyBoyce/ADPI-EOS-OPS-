@@ -44,3 +44,17 @@ Comment: *"Hi! Cleaning up the Ops To-Do list. What's the current status of this
 3. **Recurring processes living as To-Dos** (Standard Refund Reply, Standard Move Request Reply, Hero Pay Confirmation, Quarterly End of Cohort Survey Loop, Hero Friday Call Agenda, Rocks Complete Loom): move to SOPs in OPERATIONS.
 4. **"on hold" items:** decide on each. Move to "ideas to get after" or archive.
 5. **Prevent regrowth:** L10 rule that a To-Do older than 14 days goes to IDS or gets archived.
+
+## 2026-11-08: Karley Posey off the team → open To-Dos reassigned to Bri
+Karley was removed from the 6 open To-Dos she was on, and Bri was put on each (verified: Karley now has 0 open items in this list).
+
+| To-Do | Before | After |
+|---|---|---|
+| [2k Threshold Communication Process](https://app.clickup.com/t/868jpcr6r) | Karley | Bri |
+| [Payment follow-up (member)](https://app.clickup.com/t/868h468dw) | Karley | Bri |
+| [Hero Pay Confirmation](https://app.clickup.com/t/868jpgr2e) | Karley, Bri | Bri |
+| [Standard Move Request Reply](https://app.clickup.com/t/868hm9a9b) | 5 people incl. Karley | Bri, Hannah, Betty, Winkle |
+| [Standard Refund Reply](https://app.clickup.com/t/868cnm7yv) | 5 people incl. Karley | Bri, Hannah, Winkle, Betty |
+| [Rocks Complete - Loom + Share](https://app.clickup.com/t/868hhvuf1) | Hannah, Bri, Karley | Hannah, Bri |
+
+Done/closed To-Dos were left as-is (history). **Not yet changed:** Karley's open items in *Support Ticket To-Dos* (~15, mostly payment disputes and templates) and *Segue* (~15, client-profile checklist items and SOPs). Waiting on Betty: who owns disputes.
