@@ -46,6 +46,7 @@
 | 9 | **ADPI AI strategy owner:** who owns company AI direction (Q1 Rock candidate), and does the MMA Cohort bot fold into the MMA AI Brain? *Lorna's call* → Leadership L10 | High | Open (added 2026-11-08) |
 | 10 | **Program repo ownership:** `markiansich/MMA` and `markiansich/P2P` are on a personal GitHub account. Should company program IP live in an ADPI org account? *Lorna/CEO call* | Medium | Open (added 2026-11-08) |
 | 11 | **GHL + Campus data path:** connector or weekly export so enrollments, refunds, attendance, and completion reach the Scorecard (see `growth/ai-leverage-plan.md`) | High | Open (added 2026-11-08) |
+| 13 | **Ops To-Do list bloat:** ~255 active + ~100 'done' never closed in ClickUp To-Dos. Round 1 status check sent 11/08, replies due 11/11. See `docs/clickup-todo-cleanup.md` | High | In progress |
 | 12 | **Program measurables gap:** MMA/RES retention have no owner; BD Program and Force Multiplier have no measurables. Blocks `/program-health` | High | Open → next Ops L10 IDS |
 
 ## Solved (archive)
