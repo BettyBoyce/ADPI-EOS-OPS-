@@ -1,4 +1,4 @@
-# Hannah Colbert *(confirm)*: Customer Success / Community Manager
+# Hannah Colbert: Customer Success / Community Manager
 
 ## Seat (from the Accountability Chart)
 5 roles:

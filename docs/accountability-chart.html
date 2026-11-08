@@ -1,0 +1,183 @@
+<title>ADPI Accountability Chart</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: an EOS org tree read top-down (Visionary → Integrator → seats), collapsing to an indented outline on phones. Navy + brass, after ADPI's insignia. */
+:root{
+  --bg:#f5f6f8; --surface:#ffffff; --ink:#14213a; --muted:#5a6478; --line:#c3c9d6;
+  --navy:#1b2d52; --brass:#a87a1e; --brass-soft:#f4ead3; --warn:#9a4a00; --warn-soft:#fdf0e1;
+  --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0e1524; --surface:#162036; --ink:#e7ebf3; --muted:#9aa5bb; --line:#33405c;
+  --navy:#c9d6f2; --brass:#d9ad55; --brass-soft:#2c2614; --warn:#f0a35a; --warn-soft:#2e2010; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e1524; --surface:#162036; --ink:#e7ebf3; --muted:#9aa5bb; --line:#33405c;
+  --navy:#c9d6f2; --brass:#d9ad55; --brass-soft:#2c2614; --warn:#f0a35a; --warn-soft:#2e2010; color-scheme:dark}
+
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45}
+.wrap{max-width:1180px;margin:0 auto;padding-block:28px 48px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:end;justify-content:space-between;border-bottom:2px solid var(--navy);padding-bottom:12px}
+h1{font-family:var(--display);font-weight:700;font-size:2.4rem;letter-spacing:.02em;text-transform:uppercase;color:var(--navy);margin:0;text-wrap:balance}
+.meta{font-family:var(--mono);font-size:.75rem;color:var(--muted);letter-spacing:.04em}
+.mission{margin:10px 0 0;color:var(--muted);max-width:65ch}
+
+/* ---------- tree ---------- */
+.chart{overflow-x:auto;padding:28px 4px 8px}
+.tree,.tree ul{list-style:none;margin:0;padding:0}
+.tree ul{display:flex;justify-content:center;gap:0;padding-top:26px;position:relative}
+.tree li{position:relative;display:flex;flex-direction:column;align-items:center;padding:26px 8px 0}
+.tree>li{padding-top:0}
+/* connectors */
+.tree ul::before{content:"";position:absolute;top:0;left:50%;height:26px;border-left:2px solid var(--line)}
+.tree li::before,.tree li::after{content:"";position:absolute;top:0;height:26px;width:50%;border-top:2px solid var(--line)}
+.tree li::before{right:50%}
+.tree li::after{left:50%;border-left:2px solid var(--line)}
+.tree li:only-child::before,.tree li:only-child::after{display:none}
+.tree li:only-child{padding-top:0}
+.tree li:first-child::before,.tree li:last-child::after{border:0 none}
+.tree li:last-child::before{border-right:2px solid var(--line);border-radius:0 6px 0 0}
+.tree li:first-child::after{border-radius:6px 0 0 0}
+.tree>li::before,.tree>li::after{display:none}
+
+.seat{background:var(--surface);border:1px solid var(--line);border-radius:8px;width:236px;text-align:left;overflow:hidden}
+.seat-head{padding:9px 12px 8px;border-bottom:1px solid var(--line)}
+.eyebrow{font-family:var(--mono);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--brass)}
+.seat-name{font-family:var(--display);font-weight:700;font-size:1.22rem;line-height:1.1;letter-spacing:.02em;text-transform:uppercase;color:var(--navy);margin-top:2px}
+.person{font-weight:700;font-size:1rem;margin-top:4px}
+.roles{margin:0;padding:8px 12px 10px 28px;font-size:.84rem;color:var(--muted)}
+.roles li{padding:0;display:list-item;list-style:disc}
+.roles li::before,.roles li::after{display:none}
+.lead .seat{border:2px solid var(--navy)}
+.lead .seat-head{background:var(--navy)}
+.lead .seat-head .seat-name,.lead .seat-head .person{color:var(--bg)}
+.lead .seat-head .eyebrow{color:var(--brass)}
+.you .seat{border:2px solid var(--brass)}
+.you .seat-head{background:var(--brass-soft)}
+.flag{display:flex;gap:6px;align-items:flex-start;margin:0 12px 10px;padding:6px 8px;border-radius:6px;background:var(--warn-soft);color:var(--warn);font-size:.78rem;line-height:1.3}
+.flag b{font-weight:700}
+.dotted{display:inline-block;margin-top:6px;font-size:.78rem;color:var(--muted);border:1px dashed var(--brass);border-radius:999px;padding:1px 8px}
+
+.heroes{width:min(560px,92vw)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;padding:10px 12px 4px}
+.chip{font-weight:600;font-size:.88rem;padding:3px 10px;border-radius:999px;background:var(--brass-soft);color:var(--ink);border:1px solid var(--line)}
+
+/* ---------- notes ---------- */
+.notes{margin-top:32px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.note{border-top:2px solid var(--navy);padding-top:10px;min-width:0}
+.note h2{font-family:var(--display);font-size:1.15rem;text-transform:uppercase;letter-spacing:.04em;margin:0 0 4px;color:var(--navy)}
+.note p{margin:0;color:var(--muted);font-size:.9rem;max-width:65ch}
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:14px;font-size:.82rem;color:var(--muted)}
+.sw{display:inline-block;width:14px;height:14px;border-radius:3px;vertical-align:-2px;margin-right:6px;border:2px solid var(--navy)}
+.sw.b{border-color:var(--brass);background:var(--brass-soft)}
+.sw.w{border:0;background:var(--warn-soft);outline:1px solid var(--warn)}
+
+/* ---------- phone: indented outline ---------- */
+@media (max-width:760px){
+  h1{font-size:1.9rem}
+  .chart{overflow:visible;padding-top:20px}
+  .tree ul{display:block;padding:0 0 0 18px;margin-left:10px;border-left:2px solid var(--line)}
+  .tree ul::before,.tree li::before,.tree li::after{display:none}
+  .tree li{display:block;padding:12px 0 0}
+  .tree>li{padding:0}
+  .seat,.heroes{width:100%}
+}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>ADPI Accountability Chart</h1>
+      <p class="mission">Financial freedom for those who serve. Impact 3 million military families.</p>
+    </div>
+    <div class="meta">EOS · Updated 2026-11-08 · Roles marked draft until confirmed</div>
+  </header>
+
+  <div class="chart">
+    <ul class="tree">
+      <li class="lead">
+        <div class="seat">
+          <div class="seat-head"><div class="eyebrow">Visionary</div><div class="seat-name">CEO</div><div class="person">Markian Sich</div></div>
+          <ul class="roles"><li>Vision and 10-Year Target</li><li>Big relationships</li><li>Culture</li><li>Ideas and innovation</li><li>Creative problem solving</li></ul>
+        </div>
+        <ul>
+          <li class="lead">
+            <div class="seat">
+              <div class="seat-head"><div class="eyebrow">Integrator</div><div class="seat-name">COO</div><div class="person">Lorna Neeley</div></div>
+              <ul class="roles"><li>Lead, manage, hold accountable</li><li>Execute the business plan</li><li>P&amp;L and results</li><li>Integrate the major functions</li><li>Resolve leadership-team issues</li></ul>
+            </div>
+            <ul>
+              <li class="you">
+                <div class="seat">
+                  <div class="seat-head"><div class="eyebrow">Operations · Integrator-in-training</div><div class="seat-name">VP of Operations</div><div class="person">Betty Boyce</div></div>
+                  <ul class="roles"><li>Ops L10, Scorecard, Rocks</li><li>Program delivery (MMA, Res Pro, BD)</li><li>SOPs, followed by all</li><li>Lead the Ops team (GWC, 5-5-5)</li><li>Systems: ClickUp, GHL, Campus, AI</li></ul>
+                </div>
+                <ul>
+                  <li>
+                    <div class="seat">
+                      <div class="seat-head"><div class="eyebrow">Operations</div><div class="seat-name">Operations Manager</div><div class="person">Bri Boyce</div></div>
+                      <ul class="roles"><li>MMA cohort delivery and logistics</li><li>Hero Coach management and pay confirmation</li><li>SOP documentation</li><li>ClickUp upkeep</li><li>Weekly Ops measurables</li></ul>
+                    </div>
+                    <ul>
+                      <li>
+                        <div class="seat heroes">
+                          <div class="seat-head"><div class="eyebrow">1099 contractors · 8</div><div class="seat-name">Hero Coaches</div></div>
+                          <div class="chips">
+                            <span class="chip">Tim</span><span class="chip">Myles</span><span class="chip">Seneca</span><span class="chip">Ken</span><span class="chip">Mike</span><span class="chip">Anthony</span><span class="chip">Andrea</span><span class="chip" title="Hero Coach, not Joe Buchanan (VP of Marketing)">Joe J.</span>
+                          </div>
+                          <ul class="roles"><li>Coach cohort teams and calls</li><li>Hold students accountable to action steps</li><li>Flag at-risk students before they miss class</li><li>Execute case studies as scheduled</li><li>Hero readiness and confirmation actions</li></ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="seat">
+                      <div class="seat-head"><div class="eyebrow">Member experience</div><div class="seat-name">Customer Success &amp; Community Manager</div><div class="person">Hannah Colbert</div><span class="dotted">Also delivers for Marketing</span></div>
+                      <ul class="roles"><li>Member onboarding</li><li>Retention and churn</li><li>Facebook group and Campus community</li><li>Member recognition</li><li>Voice of the member</li></ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="seat">
+                      <div class="seat-head"><div class="eyebrow">Operations</div><div class="seat-name">Operations VA</div><div class="person">Winkle Pascual</div></div>
+                      <ul class="roles"><li>Support inbox (24-hr replies)</li><li>Subscriptions and past-due payments</li><li>Data entry and reporting prep</li><li>Campus and event admin</li><li>Admin SOP execution</li></ul>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div class="seat">
+                  <div class="seat-head"><div class="eyebrow">Marketing</div><div class="seat-name">VP of Marketing</div><div class="person">Joe Buchanan</div></div>
+                  <ul class="roles"><li>Lead generation</li><li>Brand and messaging</li><li>Funnels and campaigns</li><li>Content and podcast</li><li>Marketing L10 and Scorecard</li></ul>
+                </div>
+              </li>
+              <li>
+                <div class="seat">
+                  <div class="seat-head"><div class="eyebrow">Finance</div><div class="seat-name">CFO</div><div class="person">Lorna Neeley &amp; Markian Sich</div></div>
+                  <ul class="roles"><li>P&amp;L, budget, cash flow</li><li>Billing, refunds, disputes</li><li>Payroll and 1099 pay</li><li>Financial reporting</li><li>Tax and compliance</li></ul>
+                  <div class="flag"><span aria-hidden="true">!</span><span><b>Shared seat.</b> EOS puts one name in each seat. Decide who owns it.</span></div>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="legend">
+    <span><i class="sw"></i>Leadership (Visionary / Integrator)</span>
+    <span><i class="sw b"></i>Betty's seat</span>
+    <span><i class="sw w"></i>Open EOS question</span>
+  </div>
+
+  <section class="notes">
+    <div class="note"><h2>One seat, one name</h2><p>The CFO seat lists two people. In EOS, two people sharing a seat means no one owns it. Lorna and Markian should agree on one owner. The other can still do the work. This goes to the Leadership L10.</p></div>
+    <div class="note"><h2>Hannah's marketing work</h2><p>Hannah reports to Betty. Her marketing deliverables are written as roles in her seat, not as a second boss. If they take more than about 20% of her week, raise it as a capacity issue.</p></div>
+    <div class="note"><h2>Hero Coaches</h2><p>Hero Coaches are 1099 contractors. Bri manages them as one seat with eight people in it. Each coach is measured on the same five roles.</p></div>
+  </section>
+</div>

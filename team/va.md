@@ -1,4 +1,4 @@
-# Winkle Pascual *(confirm)*: Virtual Assistant
+# Winkle Pascual: Virtual Assistant
 
 ## Seat (from the Accountability Chart)
 5 roles:

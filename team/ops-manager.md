@@ -1,4 +1,4 @@
-# Bri Boyce *(confirm)*: Operations Manager
+# Bri Boyce: Operations Manager
 
 ## Seat (from the Accountability Chart)
 5 roles:

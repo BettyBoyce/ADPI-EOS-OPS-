@@ -37,7 +37,8 @@
 |---|---|---|---|
 | 1 | **3-Year Picture BD target:** "200 Mentors & 50 Lenders" vs. "$50k/month in BD partnerships." Which is the measurable? | High | Open |
 | 2 | **Annual team event:** VCP tiny home build: yes/no, scope, budget, owner. *(MilREIcon 2027 is canceled, so is there still a team event?)* | Medium | Open |
-| 3 | **Accountability Chart:** JD seats (Program Managers, BD Program, MilREIcon, FB Moderators): which are filled, shared, or open? | High | Open |
+| 3 | **Accountability Chart:** JD seats (Program Managers, BD Program, FB Moderators): which are filled, shared, or open? Core seats confirmed 2026-11-08 | High | Partly solved |
+| 3a | **CFO seat is shared** by Lorna + Markian. EOS: one name per seat. Also: who owns billing/disputes now that Karley is gone? *Leadership L10* | High | Open (added 2026-11-08) |
 | 4 | **1-Year Plan (2027) numbers** not set. Needed to cascade Q1 Rocks | High | Open |
 | 5 | **ClickUp EOS hygiene** (see `docs/clickup-eos-audit.md`) | Medium | Open |
 | 6 | **JD update:** MilREIcon is off for 2027 and Betty is now full-time Ops. Update the JD/role charter with Lorna and the CEO and decide what fills that capacity (Integrator development?). | High | Open |
