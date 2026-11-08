@@ -29,3 +29,8 @@ See [`../growth/ai-leverage-plan.md`](../growth/ai-leverage-plan.md) for priorit
 |---|---|---|---|
 | Program health visibility | `/program-health` weekly. Blocked until program measurables have owners | Betty | Skill built 2026-11-08 |
 | Delegation speed | `/delegate`, one handoff per week | Betty | Skill built 2026-11-08 |
+| Hannah: live-event promo sequence (6 pieces per event) | Claude drafts the full sequence from a one-paragraph event brief; Hannah reviews and posts | Hannah | Proposed 2026-11-08: pilot on the next live event |
+| Hannah: event and holiday graphics | Claude + Canva connector from brand templates | Hannah | Proposed 2026-11-08 |
+| Hannah: weekly member post prompts (IDS: decrease in member posts) | Claude drafts a month of discussion prompts at once | Hannah | Proposed 2026-11-08 |
+| Hannah: Campus feedback form results | Claude summarizes themes for Voice of the Member / L10 | Hannah | Proposed 2026-11-08 |
+| Support ticket replies (refund, move request) | Claude drafts from the standard reply + SOP; a human approves any refund | Hannah / Bri | Proposed 2026-11-08 |
