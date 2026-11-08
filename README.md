@@ -26,6 +26,10 @@ Everything here is organized around the **Six Key Components of EOS**:
 | Quarterly | Rock review + new Rocks, People Analyzer, Quarterly Conversations | `/quarterly-planning` |
 | Annually | 2-day annual planning, V/TO refresh | `eos/vto.md` |
 | Anytime | Capture a win | `/log-win` |
+| Weekly (Fri) | Which programs need attention | `/program-health` |
+| Weekly | Hand one task down | `/delegate` |
+
+> **AI plan:** what to learn, what to connect, and the weekly rhythm are in [`growth/ai-leverage-plan.md`](growth/ai-leverage-plan.md).
 
 ## Repo map
 

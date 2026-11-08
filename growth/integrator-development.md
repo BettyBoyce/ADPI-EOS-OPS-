@@ -21,6 +21,7 @@
 | Financial acumen (P&L, unit economics) | | | | |
 | Managing the Visionary relationship (Same Page) | | | | |
 | Delegate & Elevate (own capacity) | | | | `team/delegation-ladder.md` |
+| Using AI for leverage (ask, verify, delegate through it) | | | | [`ai-leverage-plan.md`](ai-leverage-plan.md) |
 
 ## Responsibilities to take over from Lorna (agree on these together)
 | Responsibility | Handoff stage (Shadow → Co-own → Own) | Target quarter |

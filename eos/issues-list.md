@@ -42,6 +42,11 @@
 | 5 | **ClickUp EOS hygiene** (see `docs/clickup-eos-audit.md`) | Medium | Open |
 | 6 | **JD update:** MilREIcon is off for 2027 and Betty is now full-time Ops. Update the JD/role charter with Lorna and the CEO and decide what fills that capacity (Integrator development?). | High | Open |
 | 7 | **Seat clarity with Lorna:** confirm the reporting line (CEO vs. COO), and which Integrator-level JD lines Betty owns, co-owns, or supports | High | Open: first Same Page topic |
+| 8 | **This repo is public on GitHub** (`BettyBoyce/ADPI-EOS-OPS-`) and holds team coaching notes and ClickUp links. Make it private (Betty, GitHub Settings → Danger Zone → Change visibility) | **High** | Open: To-Do this week |
+| 9 | **ADPI AI strategy owner:** who owns company AI direction (Q1 Rock candidate), and does the MMA Cohort bot fold into the MMA AI Brain? *Lorna's call* → Leadership L10 | High | Open (added 2026-11-08) |
+| 10 | **Program repo ownership:** `markiansich/MMA` and `markiansich/P2P` are on a personal GitHub account. Should company program IP live in an ADPI org account? *Lorna/CEO call* | Medium | Open (added 2026-11-08) |
+| 11 | **GHL + Campus data path:** connector or weekly export so enrollments, refunds, attendance, and completion reach the Scorecard (see `growth/ai-leverage-plan.md`) | High | Open (added 2026-11-08) |
+| 12 | **Program measurables gap:** MMA/RES retention have no owner; BD Program and Force Multiplier have no measurables. Blocks `/program-health` | High | Open → next Ops L10 IDS |
 
 ## Solved (archive)
 | Issue | Solution | Solved on |
