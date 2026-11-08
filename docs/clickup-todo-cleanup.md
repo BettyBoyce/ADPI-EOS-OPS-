@@ -58,3 +58,7 @@ Karley was removed from the 6 open To-Dos she was on, and Bri was put on each (v
 | [Rocks Complete - Loom + Share](https://app.clickup.com/t/868hhvuf1) | Hannah, Bri, Karley | Hannah, Bri |
 
 Done/closed To-Dos were left as-is (history). **Not yet changed:** Karley's open items in *Support Ticket To-Dos* (~15, mostly payment disputes and templates) and *Segue* (~15, client-profile checklist items and SOPs). Waiting on Betty: who owns disputes.
+
+## 2026-11-08: New To-Dos and assignments for Hannah
+- **Created:** [Use Claude for 6 recurring tasks to free up capacity](https://app.clickup.com/t/868mubjcr). Owner: Hannah. Due: Thu 11/12 (team off on Veterans Day 11/11). Report back at the Ops L10 on Mon 11/16. Supports Issue #14 (Hannah's capacity).
+- **Holiday graphics** ([task](https://app.clickup.com/t/868gz5m0f), Marketing L10): Betty designed the graphics. Four approved images were attached (Veterans Day and Thanksgiving, each as a 1080×1350 feed post for FB + Campus and a 1080×1920 IG story). Hannah got an assigned comment to schedule Veterans Day by 11/10 and Thanksgiving by 11/25.
