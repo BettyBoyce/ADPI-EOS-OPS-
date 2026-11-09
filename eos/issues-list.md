@@ -51,11 +51,6 @@
 | 13 | **Ops To-Do list bloat:** ~255 active + ~100 'done' never closed in ClickUp To-Dos. Round 1 status check sent 11/08, replies due 11/11. See `docs/clickup-todo-cleanup.md` | High | In progress |
 | 12 | **Program measurables gap:** MMA/RES retention have no owner; BD Program and Force Multiplier have no measurables. Blocks `/program-health` | High | Open → next Ops L10 IDS |
 
-## Leadership-level incidents that hit Ops
-| Issue | Owner | Status | Notes |
-|---|---|---|---|
-| **quiz.activedutypassiveincome.com served a German contest page** (11/09). A sales prospect clicked the link in a GHL calendar invite. Joe removed the link from the invite and Markian redirected the subdomain. | Lorna (review); Joe + Markian (fix) | Symptom fixed; **root cause open** | Checked 11/09 (public DNS, read-only): `quiz` points to Vercel's *generic* CNAME (`cname.vercel-dns.com`), while every other ADPI subdomain uses a project-specific Vercel CNAME. It now redirects to `rev.../h/adpi-homework-v1`. Still to answer: who owned the quiz domain in Vercel when the German page showed? Where else does the old link live? Who owns DNS and subdomains? |
-
 ## Solved (archive)
 | Issue | Solution | Solved on |
 |---|---|---|
