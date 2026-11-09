@@ -14,3 +14,5 @@ Document → Simplify → Followed by All (FBA). Use [`_template.md`](_template.
 | Local mentors | ADPI Vetted Agents & Lenders › Local Mentors Onboarding Workflow | Onboarding | [ ] | |
 | Events (MilREIcon) | — | `events/milreicon/runbook.md` | Betty | ⚠️ Not in ClickUp as SOP |
 | Refunds and support tickets | MMA Delivery 2.0 › HOW TO: Process Refund Requests | MMA only | Bri | ⚠️ Company-wide refund policy/thresholds |
+
+- [`marketing-brand-prompt.md`](marketing-brand-prompt.md): ADPI brand prompt + 10-day BD partner event plan for Claude (owner: Betty; used by Hannah)
