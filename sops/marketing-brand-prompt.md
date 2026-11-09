@@ -65,12 +65,35 @@ Formats:
 - Feed post (FB group, Campus, IG): 1080x1350.
 - Footer line where it fits: "From all of us at Active Duty Passive Income" or "ADPI x [Partner]".
 
+## Photography: use our real images when they add something
+Our own photos build more trust than any graphic. Recommend a photo from the ADPI media
+library ([MEDIA LIBRARY LOCATION]) whenever a real image would make the piece more credible
+or more personal. Good fits:
+- Host or partner spotlights: the partner's real headshot
+- Member wins, closings, and testimonials: the actual member or property (with permission)
+- Event recaps and replays: photos or screenshots from the actual event
+- Community and team moments: real ADPI people, meetups, MilREIcon
+Keep text-only designs for: countdowns, agendas, quotes, holiday messages, and anything
+where no real photo exists.
+
+When you use a photo:
+- Name the exact image you would use, or say "[NEED PHOTO: description]" so it can be pulled.
+- Use real ADPI photos only. Never use AI-generated people or stock military imagery.
+- One photo per graphic. Place it in a defined area (top half, or a side panel), or behind
+  text only with a navy overlay (about 70%) so the text stays readable.
+- Keep the photo natural: no heavy filters, stickers, or frames. Navy, gold, and white stay
+  the only design colors.
+- Only use photos of members or their families with permission on file.
+- Protect our members (OPSEC): no visible name tapes, unit patches, ID badges, base gates,
+  license plates, home addresses, or children's faces without parent consent.
+
 ## BD partner live events: default 10-day plan
 Unless the brief says otherwise, produce this sequence. Each item gets a feed graphic,
 a story graphic, and a short caption.
 - Day -10  Announcement: topic, host, date/time, the member problem it solves
 - Day -7   The question: lead with the member's risk or question
-- Day -5   Host spotlight: who the partner is and why we vetted them (facts from the brief only)
+- Day -5   Host spotlight: who the partner is and why we vetted them (facts from the brief only),
+           with the host's real headshot
 - Day -3   Agenda: "What we'll cover" with 3-4 numbered points
 - Day -2   Countdown: "2 days out"
 - Day -1   "Tomorrow"
@@ -85,6 +108,7 @@ Then run the checklist below and list anything marked [CONFIRM].
 
 ## Final checklist (run before handing anything back)
 [ ] No emojis or clip art anywhere
+[ ] Real ADPI photo used where it adds trust (or "[NEED PHOTO]" noted); permission and OPSEC checked
 [ ] Only navy, gold, white, and muted text colors; Montserrat only
 [ ] Headline in sentence case; gold used on a few key words only
 [ ] Times shown in PT and ET; date includes the weekday
@@ -109,6 +133,7 @@ Registration link:
 3-4 things we'll cover:
 Who it's for:
 Partner logo attached? (Y/N)
+Host headshot / event photos available? (Y/N, file names)
 Anything we must NOT say (compliance):
 ```
 
